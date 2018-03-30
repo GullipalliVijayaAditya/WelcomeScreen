@@ -14,12 +14,12 @@
             android:layout_height="400dp"
             android:orientation="vertical">
             <TextView
-                android:textColor="@color/purple"
+                android:textColor="@color/orange"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/name"
                 android:layout_gravity="center"
-                android:layout_marginTop="150dp"
+                android:layout_marginTop="50dp"
                 android:textSize="60sp"
                 android:textStyle="bold"/>
             <TextView
@@ -31,11 +31,11 @@
  me, you were my whole damn sky"
                 android:textAlignment="center"
                 android:textSize="30sp"
+                android:textStyle="bold"
                 />
         </LinearLayout>
         <LinearLayout
             android:id="@+id/l2"
-            android:layout_marginTop="135dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
