@@ -24,7 +24,7 @@
                 android:textStyle="bold"/>
             <TextView
                 android:textColor="@color/blue"
-                android:layout_width="398dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:text="you weren't just a star to
@@ -34,22 +34,24 @@
                 android:textStyle="bold"
                 />
         </LinearLayout>
-        <LinearLayout
-            android:id="@+id/l2"
+
+    <LinearLayout
+        android:id="@+id/l2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+
+        android:background="@drawable/astrounaut"
+        android:orientation="vertical">
+
+        <Button
+
+            android:id="@+id/buttonsub"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:background="@drawable/astrounaut">
-
-            <Button
-
-                android:id="@+id/buttonsub"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:background="@drawable/buttonstyle"
-                android:text="@string/message" />
-        </LinearLayout>
+            android:layout_gravity="center"
+            android:background="@drawable/buttonstyle"
+            android:text="@string/message" />
+    </LinearLayout>
 
 
     </LinearLayout>
